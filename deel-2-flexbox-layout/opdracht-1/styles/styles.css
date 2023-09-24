@@ -1,1 +1,61 @@
 /*Schrijf hier jouw CSS*/
+/*dit is de hele webpagina*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+/*flex elementen header, article, nav, aside, footer*/
+
+
+header {
+    flex-basis: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+/*de main is apart ook een flexbox zit in het midden van de body. daarin zitten weer allemaal items*/
+main {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+/*de article, nav en aside zitten allemaal in de main*/
+/*-----------------article--------*/
+article {
+    flex-basis: 80vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+    order: 1;
+}
+
+
+/*------aside--------*/
+aside {
+    flex-basis: 25vw;
+    flex-grow: 1;
+    flex-shrink: 0;
+    order: 2;
+}
+
+/*------nav-----*/
+nav {
+    flex-basis: 25vw;
+    flex-grow: 1;
+    flex-shrink: 0;
+    order: 3;
+}
+
+
+/*---------footer---------*/
+footer {
+    flex-basis: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+

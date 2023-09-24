@@ -1,4 +1,4 @@
-# Opdrachtomschrijving
+rem# Opdrachtomschrijving
 
 Zoals je hebt geleerd kun je met flexbox HTML elementen op diverse manier uitlijnen, maar ook complexe layouts maken.
 In de eerste opdracht ga je vooral de children (flex items) binnen de parent (flex container) uitlijnen. In het tweede
